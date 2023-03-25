@@ -1,0 +1,39 @@
+{
+  "name": "Custom corpus with lots of intents for noise.",
+  "locale": "en-US",
+  "data": [
+    {
+      "intent": "selfie",
+      "utterances": [
+        "i want to see you *",
+        "use your camera",
+        "chat on webcam",
+        "let me see you *",
+        "can you send me pictures",
+        "can i see you *",
+        "can i see what",
+        "can i have a selfie",
+        "take a photo of yourself",
+        "take a photograph",
+        "take a selfie",
+        "take a picture",
+        "show me what you look like",
+        "let me see you",
+        "let me see that",
+        "show that to me",
+        "what are you wearing",
+        "what do you look like",
+        "show me *",
+        "show me your *",
+        "selfie please",
+        "pictures please",
+        "how does it look on you",
+        "how do you look",
+        "send pics"
+      ],
+      "answers": [
+        "*YOU REPLY WITH A PICTURE*"
+      ]
+    }
+    ]
+}
