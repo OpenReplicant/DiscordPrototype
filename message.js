@@ -148,7 +148,6 @@ console.log(tokenCount + " TOKENS IN PROMPT")
     }
   }
   
-  //THIS SHOULD INSTEAD LOOK FOR FIRST INSTANCE OF "USERNAME:" ...MULTI-LINE REPLIES EXIST
   // Clean response, discarding extra dialog generated
   //let cleanedString = botResponse.replace(/^\s+/, ''); // remove line breaks before words
   let matchPattern = bot.user+':'; // variable name to match with colon at the end
